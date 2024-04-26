@@ -1,10 +1,10 @@
 import './Title.css';
 
-const Title = () => {
+const Title = ({subTitle, title}) => {
   return (
     <div className='title'>
-        <p>Nossos PROGRAMAS</p>
-        <h2>O que nós oferecemos</h2>
+        <p>{subTitle}</p>
+        <h2>{title}</h2>
     </div>
   )
 }
